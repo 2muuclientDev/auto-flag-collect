@@ -42,13 +42,13 @@ public class ExampleMod {
         Minecraft mc = Minecraft.getMinecraft();
         FontRenderer fr = mc.fontRendererObj;
         ScaledResolution sr = new ScaledResolution(mc);
-        String text = "AutoFlagCollect";
+        String text = "Auto Flag Collect §7Vanilla";
         int x = sr.getScaledWidth() - fr.getStringWidth(text) - 5;
         int y = 5;
-        String text2 = "AutoVoid §7Hypixel";
+        String text2 = "Auto Void §7Hypixel";
         int x2 = sr.getScaledWidth() - fr.getStringWidth(text2) - 5;
 
-        fr.drawString(text2, x, y, 0x19bfe0, true);
-        fr.drawString(text, x, y + 2 + fr.FONT_HEIGHT, 0x19bfe0, true);
+        fr.drawString(text, x, y, 0x19bfe0, true);
+        fr.drawString(text2, x, y + 2 + fr.FONT_HEIGHT, 0x19bfe0, true);
     }
 }
