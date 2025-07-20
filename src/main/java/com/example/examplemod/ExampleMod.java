@@ -12,7 +12,7 @@ import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION, dependencies = "required-after:autovoid")
 public class ExampleMod {
-    public static final String MODID = "autovoid";
+    public static final String MODID = "autoflagcollect";
     public static final String VERSION = "1.0";
 
     @Mod.EventHandler
